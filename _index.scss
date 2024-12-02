@@ -1,0 +1,54 @@
+main {
+    background-color: $color-background-main;
+    grid-area: main;
+    background-image: url(https://www.zonammorpg.com/wp-content/uploads/2019/09/mu7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $color-white;
+    font-size: larger;
+  }
+  
+  .sidebar, .content1, .content2, .content3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .sidebar {
+    background-color: $color-crimson;
+    grid-area: sidebar;
+    background-image: url(img/banner\ mu.png);
+  }
+  
+  .content1 {
+    background-color: $color-darkolivegreen;
+    grid-area: content1;
+    background-image: url(img/elf.jpg);
+    color: rgb(2, 0, 0);
+  }
+  
+  .content2 {
+    background-color: $color-green;
+    grid-area: content2;
+    background-image: url(img/bk.webp);
+    color: $color-red;
+  }
+  
+  .content3 {
+    background-color: $color-blue;
+    grid-area: content3;
+    background-image: url(img/mg.jpg);
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: $color-red;
+  }
+  
+  h1 {
+    font-style: italic;
+  }
+  
+  h2 {
+    font-style: normal;
+  }
+  

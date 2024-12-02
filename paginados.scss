@@ -1,0 +1,80 @@
+.container2 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .navpAGINAdOS {
+    background-color: #444;
+  }
+  
+  header {
+    background-color: #333;
+    color: $color-white;
+    text-align: center;
+    padding: 20px;
+    background-image: url(https://static-cdn.jtvnw.net/jtv_user_pictures/696a006f-1377-4012-b082-c23f029a58e7-profile_banner-480.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    text-transform: uppercase;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: $color-white;
+  }
+  
+  nav li a:hover {
+    padding: 5px 10px;
+    background: $color-white;
+    color: black;
+    border-radius: 15px;
+  }
+  
+  .main2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #ffffff;
+    color: #0e0d0d;
+    padding: 20px;
+    background-image: url(https://st4.depositphotos.com/12985848/19849/i/450/depositphotos_198497854-stock-illustration-abstract-pink-purple-smoke-black.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .tarjeta 
+  {
+    width: 300px;
+    background-color: #f3eeee;
+    border-radius: 5px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    transform: scale(1);
+    transition: all 0.15s ease-in;
+    
+    .tarjeta:hover
+    {
+        background-color: rgb(169, 35, 187);
+        transform: scale(1.15);
+    } 
+  
+    img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+  }
+  

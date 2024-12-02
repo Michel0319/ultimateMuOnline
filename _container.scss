@@ -1,0 +1,16 @@
+/* Estilos del contenedor */
+.container, .container2 {
+    display: grid;
+    height: 100%;
+  }
+  /* Contenedor de la página principal */
+.container {
+    grid-template-columns: 1fr 2fr 2fr 2fr;
+    grid-template-rows: 0.2fr 1.7fr 1.3fr 0.8fr;
+    grid-template-areas:
+      'sidebar nav nav nav'
+      'sidebar main main main'
+      'sidebar content1 content2 content3'
+      'sidebar footer footer footer';
+  }
+  

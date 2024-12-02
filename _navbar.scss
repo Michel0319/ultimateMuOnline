@@ -1,0 +1,16 @@
+nav {
+    background-color: $color-background-sidebar;
+    grid-area: nav;
+    padding: 10px;
+    text-align: right;
+    font-style: italic;
+    text-transform: uppercase;
+  
+    a:hover {
+      padding: 5px 10px;
+      background: #f00a88;
+      color: rgb(245, 243, 247);
+      border-radius: 20px;
+    }
+  }
+  

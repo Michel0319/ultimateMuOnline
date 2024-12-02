@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: $color-white;
+  
+    .icons {
+      display: flex;
+      gap: 15px;
+  
+      a {
+        display: flex;
+        align-items: center;
+  
+        img {
+          width: 52px;
+          height: 52px;
+        }
+  
+        &:hover img {
+          opacity: 0.8;
+        }
+      }
+    }
+  
+    background-color: $color-footer;
+  }
+  
